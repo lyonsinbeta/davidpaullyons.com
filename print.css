@@ -1,0 +1,146 @@
+body {
+	background: #FFF;
+	color: #222;
+	font-size: 9pt;
+	line-height: 150%;
+	font-family: Palatino, Georgia, Times, serif;
+}
+
+a , a:visited, a:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #A6C431;
+}
+
+a:hover  {
+	color: #777;
+}
+
+#about {
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 500px;
+}
+
+#about h1, #resume header h1 {
+	font-size: 13pt;
+	font-variant: small-caps;
+	color: #000;
+}
+
+a.twitter {
+	color: #4099FF;
+}
+
+a.gplus {
+	color: #D34836;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+}
+
+#resume {
+	margin: 0 auto 20px;
+	padding: 10px;
+	max-width: 750px;
+	clear: both;
+}
+
+#resumeName {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 750px;
+}
+
+#resumeName h1 {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#resumeName ul {
+	float: right;
+}
+
+#resume ul {
+	clear: both;
+	border-bottom: 1px dashed #000;
+	list-style-position: inside;
+}
+
+nav {
+	display: none;
+}
+
+nav ul, #resumeName ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#resume ul>:first-child {
+	padding-top: 15px;
+}
+
+#resume ul>:last-child {
+	padding-bottom: 15px;
+}
+
+nav li, #resumeName li {
+	display: inline;
+}
+
+li.pdf {
+	float: right;
+	margin-left: 20px;
+}
+
+li.number {
+	margin-left: 20px;
+}
+
+#resumeName {
+	margin: 0;
+	padding: 0;
+}
+
+#resume .last {
+	border: none;
+}
+
+#resume h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 11pt;
+}
+
+#resume h3 {
+	margin: 0;
+	padding: 0;
+	float: left;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+#resume h3.date {
+	margin-top: -10pt;
+	padding: 0;
+	float: right;
+	color: #555;
+	font-weight: normal;
+}
+
+.edu {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.printEdu {
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: right;
+}
